@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Tesla</title>
+</head>
+
+<body>
+	<main>
+		<div class="container">
+			<div class="preview">
+				<img class="car" src="img/tesla.png" alt="tesla">
+				<div class="wheels">
+					<img class="wheel-right wheel" src="img/car-wheel.png" alt="wheel">
+					<img class="wheel-left wheel" src="img/car-wheel.png" alt="wheel">
+				</div>
+			</div>
+
+			<div class="action">
+				<div class="model__pricing">
+					<div class="item-reserve">
+						<div class="sup-title">
+							<span>Запас хода</span>
+						</div>
+						<div class="title">
+							<span class="reserve">750</span>км
+						</div>
+					</div>
+
+					<div class="item-price">
+						<div class="sup-title">
+							<span>Цена</span>
+						</div>
+						<div class="title">
+							$<span class="price">89,990</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="box-item car-speed hide">
+						<div class="item-inteface">
+							<div class="sup-title">
+								<span>Скорость автомобиля</span>
+							</div>
+							<div class="title">
+								<span class="speed">60</span> км/ч
+							</div>
+						</div>
+						<div class="item-change">
+							<button class="speed-up">
+								<span>🠝</span>
+							</button> <br>
+							<button class="speed-down">
+								<span>🠟</span>
+							</button>
+						</div>
+					</div>
+					<div class="box-item hide">
+						<div class="item-inteface">
+							<div class="sup-title">
+								<span>Температура за окнами</span>
+							</div>
+							<div class="title">
+								<span class="degre">20</span>°
+							</div>
+						</div>
+						<div class="item-change temp">
+							<button class="up">
+								<span>🠝</span>
+							</button> <br>
+							<button class="down">
+								<span>🠟</span>
+							</button>
+						</div>
+					</div>
+					<div class="box-item hide">
+						<div class="item-inteface">
+							<div class="sup-title">
+								<span>Диски</span>
+							</div>
+							<div class="title">
+								<span class="size">19</span>
+							</div>
+						</div>
+						<div class="item-change">
+							<button class="big">
+								<span>🠝</span>
+							</button> <br>
+							<button class="small">
+								<span>🠟</span>
+							</button>
+						</div>
+					</div>
+					<div class="box-item hide">
+						<div class="item-inteface">
+							<div class="sup-title">
+								<span>Кондиционер</span>
+							</div>
+							<label class="switch">
+								<input class="conditioner" type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</div>
+					</div>
+					<div class="box-item hide">
+						<div class="item-inteface">
+							<div class="sup-title">
+								<span>Версия Long Range</span>
+							</div>
+							<label class="switch">
+								<input class="long" data-price="5000" type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</div>
+					</div>
+					<div class="box-item colors">
+						<div class="item-inteface">
+							<div class="sup-title">
+								<span>Цвет салона</span>
+							</div>
+							<div class="colors-box">
+								<div class="color-item">
+									<div data-color="black" style="background: rgb(38, 38, 38);" class="color active"></div>
+								</div>
+								<div class="color-item ">
+									<div data-color="white" style="background: rgb(239, 239, 239);" class="color"></div>
+								</div>
+								<div class="color-item">
+									<div data-color="wheat" style="background: rgb(230, 221, 208);" class="color"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box-item">
+						<div class="item-inteface">
+							<div class="sup-title">
+								<span>Вид автомобиля</span>
+							</div>
+							<label class="switch">
+								<input checked class="car-view" type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</main>
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
